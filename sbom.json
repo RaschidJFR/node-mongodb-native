@@ -3,21 +3,21 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
   "version": 1,
-  "serialNumber": "urn:uuid:2a8890c5-546f-4418-b9a3-82c6bb8f7ec3",
+  "serialNumber": "urn:uuid:7b742b4c-2c74-4d83-89ce-0127a18177d1",
   "metadata": {
-    "timestamp": "2026-01-30T16:56:57.699Z",
+    "timestamp": "2026-07-15T16:28:15.863Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "name": "npm",
-          "version": "11.8.0"
+          "version": "12.0.1"
         },
         {
           "type": "application",
           "name": "cyclonedx-npm",
           "group": "@cyclonedx",
-          "version": "4.1.2",
+          "version": "6.0.0",
           "author": "Jan Kowalleck",
           "description": "Create CycloneDX Software Bill of Materials (SBOM) from NPM projects.",
           "licenses": [
@@ -49,7 +49,7 @@
           "type": "library",
           "name": "cyclonedx-library",
           "group": "@cyclonedx",
-          "version": "9.4.1",
+          "version": "10.1.0",
           "author": "Jan Kowalleck",
           "description": "Core functionality of CycloneDX for JavaScript (Node.js or WebBrowser).",
           "licenses": [
@@ -82,8 +82,8 @@
     "component": {
       "type": "application",
       "name": "mongodb",
-      "version": "7.0.0",
-      "bom-ref": "mongodb@7.0.0",
+      "version": "7.5.0",
+      "bom-ref": "mongodb@7.5.0",
       "author": "The MongoDB NodeJS Team",
       "description": "The official MongoDB driver for Node.js",
       "licenses": [
@@ -93,7 +93,7 @@
           }
         }
       ],
-      "purl": "pkg:npm/mongodb@7.0.0?vcs_url=git%2Bssh%3A%2F%2Fgit%40github.com%2Fmongodb%2Fnode-mongodb-native.git",
+      "purl": "pkg:npm/mongodb@7.5.0?vcs_url=git%2Bssh%3A%2F%2Fgit%40github.com%2Fmongodb%2Fnode-mongodb-native.git",
       "externalReferences": [
         {
           "url": "git+ssh://git@github.com/mongodb/node-mongodb-native.git",
@@ -124,8 +124,8 @@
       "type": "library",
       "name": "saslprep",
       "group": "@mongodb-js",
-      "version": "1.3.2",
-      "bom-ref": "mongodb@7.0.0|@mongodb-js/saslprep@1.3.2",
+      "version": "1.4.11",
+      "bom-ref": "mongodb@7.5.0|@mongodb-js/saslprep@1.4.11",
       "licenses": [
         {
           "license": {
@@ -133,15 +133,15 @@
           }
         }
       ],
-      "purl": "pkg:npm/%40mongodb-js/saslprep@1.3.2",
+      "purl": "pkg:npm/%40mongodb-js/saslprep@1.4.11",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/@mongodb-js/saslprep/-/saslprep-1.3.2.tgz",
+          "url": "https://registry.npmjs.org/@mongodb-js/saslprep/-/saslprep-1.4.11.tgz",
           "type": "distribution",
           "hashes": [
             {
               "alg": "SHA-512",
-              "content": "4200390324aa076edc1935c11669e989f022ec7c6819479ecf0a3aa7d748d3732e0c1e8fa77df381c96a55bea854ade3e88f557ac834fa8a235b65f1079f521a"
+              "content": "a3dac01dcd08a488ee3d2c51bad5a913517adb1ee7fb89954b8ac234793384850c41c735f1b6fac44ab9c1dd8d74dd168dea48c97229a51b21608da440339954"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -157,8 +157,8 @@
     {
       "type": "library",
       "name": "bson",
-      "version": "7.1.1",
-      "bom-ref": "mongodb@7.0.0|bson@7.1.1",
+      "version": "7.3.1",
+      "bom-ref": "mongodb@7.5.0|bson@7.3.1",
       "licenses": [
         {
           "license": {
@@ -166,15 +166,15 @@
           }
         }
       ],
-      "purl": "pkg:npm/bson@7.1.1",
+      "purl": "pkg:npm/bson@7.3.1",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/bson/-/bson-7.1.1.tgz",
+          "url": "https://registry.npmjs.org/bson/-/bson-7.3.1.tgz",
           "type": "distribution",
           "hashes": [
             {
               "alg": "SHA-512",
-              "content": "4ed260041f90c8e9568eb6ccfbc6d1807f3854cff1ac38f2045812806adf645e31bedea06c40ed72cc26dbb4e7f45f535ac8d0c9bc53f1bf15a423ffa092b80f"
+              "content": "87f0b4a9eebce7ba5085c4891cb7ec475b981a3f7c19edf02800f711df4aa87df071587e04ce09ab8c48483eefb3d38fb93d3b9feab7410563b25276f3a8fa6a"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -190,8 +190,8 @@
     {
       "type": "library",
       "name": "mongodb-connection-string-url",
-      "version": "7.0.0",
-      "bom-ref": "mongodb@7.0.0|mongodb-connection-string-url@7.0.0",
+      "version": "7.0.1",
+      "bom-ref": "mongodb@7.5.0|mongodb-connection-string-url@7.0.1",
       "licenses": [
         {
           "license": {
@@ -199,15 +199,15 @@
           }
         }
       ],
-      "purl": "pkg:npm/mongodb-connection-string-url@7.0.0",
+      "purl": "pkg:npm/mongodb-connection-string-url@7.0.1",
       "externalReferences": [
         {
-          "url": "https://registry.npmjs.org/mongodb-connection-string-url/-/mongodb-connection-string-url-7.0.0.tgz",
+          "url": "https://registry.npmjs.org/mongodb-connection-string-url/-/mongodb-connection-string-url-7.0.1.tgz",
           "type": "distribution",
           "hashes": [
             {
               "alg": "SHA-512",
-              "content": "8ab8618d154b136d216e4465e33a4060b9c330cfb32199e9d080c1f5a900145519a7fdd774e7f0c1d75cef2e9c36f17658212d7d3611c186c87d86b6915634a2"
+              "content": "874019f40ec80d5c301f233199d3172b2fbda0d945d331686a11e25f7bd0f1edca15c48fdd59ac99fbed452b8b3f19b2bf6be3203c6ab72f2c9938227bf48d45"
             }
           ],
           "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
@@ -224,7 +224,7 @@
       "type": "library",
       "name": "sparse-bitfield",
       "version": "3.0.3",
-      "bom-ref": "mongodb@7.0.0|sparse-bitfield@3.0.3",
+      "bom-ref": "mongodb@7.5.0|sparse-bitfield@3.0.3",
       "licenses": [
         {
           "license": {
@@ -258,7 +258,7 @@
       "name": "whatwg-url",
       "group": "@types",
       "version": "13.0.0",
-      "bom-ref": "mongodb@7.0.0|@types/whatwg-url@13.0.0",
+      "bom-ref": "mongodb@7.5.0|@types/whatwg-url@13.0.0",
       "licenses": [
         {
           "license": {
@@ -291,7 +291,7 @@
       "type": "library",
       "name": "whatwg-url",
       "version": "14.2.0",
-      "bom-ref": "mongodb@7.0.0|whatwg-url@14.2.0",
+      "bom-ref": "mongodb@7.5.0|whatwg-url@14.2.0",
       "licenses": [
         {
           "license": {
@@ -324,7 +324,7 @@
       "type": "library",
       "name": "memory-pager",
       "version": "1.5.0",
-      "bom-ref": "mongodb@7.0.0|memory-pager@1.5.0",
+      "bom-ref": "mongodb@7.5.0|memory-pager@1.5.0",
       "licenses": [
         {
           "license": {
@@ -358,7 +358,7 @@
       "name": "webidl-conversions",
       "group": "@types",
       "version": "7.0.3",
-      "bom-ref": "mongodb@7.0.0|@types/webidl-conversions@7.0.3",
+      "bom-ref": "mongodb@7.5.0|@types/webidl-conversions@7.0.3",
       "licenses": [
         {
           "license": {
@@ -391,7 +391,7 @@
       "type": "library",
       "name": "tr46",
       "version": "5.1.1",
-      "bom-ref": "mongodb@7.0.0|tr46@5.1.1",
+      "bom-ref": "mongodb@7.5.0|tr46@5.1.1",
       "licenses": [
         {
           "license": {
@@ -424,7 +424,7 @@
       "type": "library",
       "name": "webidl-conversions",
       "version": "7.0.0",
-      "bom-ref": "mongodb@7.0.0|webidl-conversions@7.0.0",
+      "bom-ref": "mongodb@7.5.0|webidl-conversions@7.0.0",
       "licenses": [
         {
           "license": {
@@ -457,7 +457,7 @@
       "type": "library",
       "name": "punycode",
       "version": "2.3.1",
-      "bom-ref": "mongodb@7.0.0|punycode@2.3.1",
+      "bom-ref": "mongodb@7.5.0|punycode@2.3.1",
       "licenses": [
         {
           "license": {
@@ -489,65 +489,65 @@
   ],
   "dependencies": [
     {
-      "ref": "mongodb@7.0.0",
+      "ref": "mongodb@7.5.0",
       "dependsOn": [
-        "mongodb@7.0.0|@mongodb-js/saslprep@1.3.2",
-        "mongodb@7.0.0|bson@7.1.1",
-        "mongodb@7.0.0|mongodb-connection-string-url@7.0.0"
+        "mongodb@7.5.0|@mongodb-js/saslprep@1.4.11",
+        "mongodb@7.5.0|bson@7.3.1",
+        "mongodb@7.5.0|mongodb-connection-string-url@7.0.1"
       ]
     },
     {
-      "ref": "mongodb@7.0.0|@mongodb-js/saslprep@1.3.2",
+      "ref": "mongodb@7.5.0|@mongodb-js/saslprep@1.4.11",
       "dependsOn": [
-        "mongodb@7.0.0|sparse-bitfield@3.0.3"
+        "mongodb@7.5.0|sparse-bitfield@3.0.3"
       ]
     },
     {
-      "ref": "mongodb@7.0.0|bson@7.1.1"
+      "ref": "mongodb@7.5.0|bson@7.3.1"
     },
     {
-      "ref": "mongodb@7.0.0|mongodb-connection-string-url@7.0.0",
+      "ref": "mongodb@7.5.0|mongodb-connection-string-url@7.0.1",
       "dependsOn": [
-        "mongodb@7.0.0|@types/whatwg-url@13.0.0",
-        "mongodb@7.0.0|whatwg-url@14.2.0"
+        "mongodb@7.5.0|@types/whatwg-url@13.0.0",
+        "mongodb@7.5.0|whatwg-url@14.2.0"
       ]
     },
     {
-      "ref": "mongodb@7.0.0|sparse-bitfield@3.0.3",
+      "ref": "mongodb@7.5.0|sparse-bitfield@3.0.3",
       "dependsOn": [
-        "mongodb@7.0.0|memory-pager@1.5.0"
+        "mongodb@7.5.0|memory-pager@1.5.0"
       ]
     },
     {
-      "ref": "mongodb@7.0.0|@types/whatwg-url@13.0.0",
+      "ref": "mongodb@7.5.0|@types/whatwg-url@13.0.0",
       "dependsOn": [
-        "mongodb@7.0.0|@types/webidl-conversions@7.0.3"
+        "mongodb@7.5.0|@types/webidl-conversions@7.0.3"
       ]
     },
     {
-      "ref": "mongodb@7.0.0|whatwg-url@14.2.0",
+      "ref": "mongodb@7.5.0|whatwg-url@14.2.0",
       "dependsOn": [
-        "mongodb@7.0.0|tr46@5.1.1",
-        "mongodb@7.0.0|webidl-conversions@7.0.0"
+        "mongodb@7.5.0|tr46@5.1.1",
+        "mongodb@7.5.0|webidl-conversions@7.0.0"
       ]
     },
     {
-      "ref": "mongodb@7.0.0|memory-pager@1.5.0"
+      "ref": "mongodb@7.5.0|memory-pager@1.5.0"
     },
     {
-      "ref": "mongodb@7.0.0|@types/webidl-conversions@7.0.3"
+      "ref": "mongodb@7.5.0|@types/webidl-conversions@7.0.3"
     },
     {
-      "ref": "mongodb@7.0.0|tr46@5.1.1",
+      "ref": "mongodb@7.5.0|tr46@5.1.1",
       "dependsOn": [
-        "mongodb@7.0.0|punycode@2.3.1"
+        "mongodb@7.5.0|punycode@2.3.1"
       ]
     },
     {
-      "ref": "mongodb@7.0.0|webidl-conversions@7.0.0"
+      "ref": "mongodb@7.5.0|webidl-conversions@7.0.0"
     },
     {
-      "ref": "mongodb@7.0.0|punycode@2.3.1"
+      "ref": "mongodb@7.5.0|punycode@2.3.1"
     }
   ]
 }
